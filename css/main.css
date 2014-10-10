@@ -16,7 +16,7 @@
     src: url("http://fonts.googleapis.com/css?family=Tangerine");
 }
 
-#heading {
+.heading {
     font-family: 'Tangerine', serif;
     font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
@@ -66,7 +66,7 @@ ul {
 
 /*-----layout------*/
 
-div.p {
+ {
     background-color: #1F2DB2;
     width: 750px;
     height: 1000px;
