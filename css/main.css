@@ -1,0 +1,87 @@
+
+
+RGB, Hex, or HSL values (no Color Keywords)
+Add opacity using:
+Opacity, RGBA, or HSLA
+
+Styling text
+/*----main nav----*/
+
+
+
+/*----end nav----*/
+
+
+/*-------Main Content-------*/
+
+#heading {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    font-size: 0.9em;
+    font-weight:;
+    font-style:
+    line-height:
+    text-align:
+    text-shadow:
+}
+Add a web based font using:
+<link /> or @font-face
+
+
+a:link {
+
+    color: #ff0000;
+    }
+
+a:visited {
+    text-decoration: none;
+    color: #0ff048;
+    }
+a:hover {
+    text-decoration: none;
+    color: #0A14FF;
+    }
+a:active {
+    text-decoration: none;
+    color: #FFC700;
+    }
+
+
+ul {
+
+    list-style-type: disc;
+}
+
+
+
+}
+
+/*-----End Content-----*/
+
+/*-----layout------*/
+
+Box model
+
+The following CSS properties should be used:
+width
+height
+padding
+border
+margin
+Center your page using:
+width
+auto margins
+Add rounded corners using:
+border-radius
+Add box shadow using:
+box-shadow
+Change the display of elements from their default using:
+display
+
