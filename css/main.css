@@ -1,5 +1,4 @@
 
-
 RGB, Hex, or HSL values (no Color Keywords)
 Add opacity using:
 Opacity, RGBA, or HSLA
@@ -13,6 +12,11 @@ Styling text
 
 
 /*-------Main Content-------*/
+
+@font-face {
+    font-family: Tangerine;
+    src: url("http://fonts.googleapis.com/css?family=Tangerine");
+}
 
 #heading {
     font-family: 'Tangerine', serif;
