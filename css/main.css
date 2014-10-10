@@ -6,7 +6,11 @@ Opacity, RGBA, or HSLA
 Styling text
 /*----main nav----*/
 
-
+#navbox {
+    background-color: #fff;
+    width: 300px; height: 120px;
+    opacity: 0.6;
+}
 
 /*----end nav----*/
 
@@ -29,15 +33,12 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f0f0f0;
     font-size: 0.9em;
-    font-weight:;
-    font-style:
-    line-height:
-    text-align:
-    text-shadow:
-}
-Add a web based font using:
-<link /> or @font-face
+    font-weight: 200;
+    font-style: oblique;
+    line-height: 100%
+    text-align: justify;
 
+}
 
 a:link {
 
@@ -65,27 +66,20 @@ ul {
 
 
 
-}
+
 
 /*-----End Content-----*/
 
 /*-----layout------*/
 
-Box model
-
-The following CSS properties should be used:
-width
-height
-padding
-border
-margin
-Center your page using:
-width
-auto margins
-Add rounded corners using:
-border-radius
-Add box shadow using:
-box-shadow
-Change the display of elements from their default using:
-display
-
+p.div {
+    background-color: #eee;
+    width: 300px;
+    height: 120px;
+    padding: 10px;
+    border: 3px;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px #000000;
+    display: block;
+}
