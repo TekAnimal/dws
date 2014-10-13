@@ -2,8 +2,10 @@
 
 .navbox {
     background-color: #00B233;
-    width: 300px; height: 120px;
+    float: left;
+    width: 220px; height: 90px;
     opacity: 0.6;
+
 }
 
 /*----end nav----*/
@@ -11,27 +13,45 @@
 
 /*-------Main Content-------*/
 
+
+
+
 @font-face {
-    font-family: Tangerine;
-    src: url("http://fonts.googleapis.com/css?family=Tangerine");
+    font-family: 'Lobster';
+    src: url("http://fonts.googleapis.com/css?family=Lobster");
+}
+
+.maintitle {
+
+    text-align: center;
+    font-family: 'Lobster', cursive;
+
 }
 
 .heading {
-    font-family: 'Tangerine', serif;
-    font-size: 48px;
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
     text-shadow: 4px 4px 4px #aaa;
+    color: #E83E0C;
 }
+
 
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #FF8722;
     font-size: 0.9em;
     font-weight: 200;
     font-style: oblique;
     line-height: 100%;
     text-align: justify;
+    overflow: hidden;
+}
 
+.subheading {
+
+    color: #E83E0C;
+    overflow: hidden;
 }
 
 a:link {
@@ -57,7 +77,9 @@ ul {
 
     list-style-type: disc;
 }
-
+figure {
+    float: right;
+}
 
 
 
@@ -66,11 +88,9 @@ ul {
 
 /*-----layout------*/
 
- {
+.outerDiv {
     background-color: #1F2DB2;
-    width: 750px;
-    height: 1000px;
-    padding: 10px;
+    padding-top: 100px;
     border: 3px;
     margin: 25px;
     border-radius: 15px;
