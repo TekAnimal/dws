@@ -1,12 +1,17 @@
 /*----main nav----*/
 
-.navbox {
-    background-color: #00B233;
-    float: left;
-    width: 220px; height: 90px;
-    opacity: 0.6;
+#mainnav li {
+
+    display: inline;
 
 }
+
+#nav {
+    background: #f3e2c7; /* Old browsers */
+    background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#e9d4b3 100%); /* W3C */
+
+}
+
 
 /*----end nav----*/
 
@@ -22,6 +27,7 @@
 }
 
 
+
 .heading {
     font-family: 'Lobster', cursive;
     font-size: 32px;
@@ -29,11 +35,15 @@
     color: #E83E0C;
 }
 
+figcaption, title {
 
+    color: red;
+
+}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FF8722;
+    color: #B25700;
     font-size: 0.9em;
     font-weight: 200;
     font-style: oblique;
@@ -47,6 +57,13 @@ p {
     color: #E83E0C;
     overflow: hidden;
 }
+
+strong {
+
+    color: red;
+
+}
+
 
 a:link {
 
@@ -71,9 +88,7 @@ ul {
 
     list-style-type: disc;
 }
-figure {
-    float: right;
-}
+
 
 
 
@@ -82,18 +97,49 @@ figure {
 
 /*-----layout------*/
 
-.outerDiv {
-    background-color: #1F2DB2;
-    padding-top: 100px;
-    border: 15px;
-    margin: 25px;
-    border-radius: 15px;
-    box-shadow: inset 0 0 10px #000000;
-    display: block;
+#container {
+    background: url("../images/R33Skyline.jpg") no-repeat left center fixed;
+    min-height:100%;
+    position:relative;
+}
+
+
+#body {
+
+    width: 1000px;
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
+#content {
+    background: url("../images/bgblackgrey.jpg") repeat;
+    float: left;
+    width: 31.3%;
+    padding: 10px;
+    margin: 1%;
 
 }
 
-.innerDiv {
-    padding-top: 200px;
-    text-align: center;
+#history {
+    background: url("../images/bgblackgrey.jpg") repeat;
+    float: left;
+    width: 31.3%;
+    padding: 10px;
+    margin: 1%;
+
+}
+
+#images {
+
+    width: 30.3%;
+    float: right;
+
+}
+
+#footer {
+
+    clear: left;
+    width: 100%;
+    height: 25px;   /* Height of the footer */
+    background: #6cf;
 }
