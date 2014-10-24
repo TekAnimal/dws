@@ -134,6 +134,9 @@ form {
     text-transform: uppercase;
 }
 
+td {
+    text-align: center;
+}
 
 
 /*-----End Content-----*/
