@@ -6,7 +6,7 @@
 
 }
 
-#nav {
+nav {
     background: #f3e2c7; /* Old browsers */
     background: linear-gradient(to bottom, #f3e2c7 0%,#c19e67 50%,#e9d4b3 100%); /* W3C */
 
@@ -16,7 +16,7 @@
 /*----end nav----*/
 
 
-/*-------Main Content-------*/
+/*-------Main styles-------*/
 
 
 
@@ -29,8 +29,8 @@
 
 
 .heading {
-    font-family: 'Lobster', cursive;
-    font-size: 32px;
+    font: 'Lobster', cursive;
+    font-size: 1.0em;
     text-shadow: 4px 4px 4px #aaa;
     color: #E83E0C;
 }
@@ -42,7 +42,7 @@ figcaption, title {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font: Arial, Helvetica, sans-serif;
     color: #B25700;
     font-size: 0.9em;
     font-weight: 200;
@@ -90,6 +90,41 @@ ul {
 }
 
 
+table {
+    width: 25%;
+    padding: 3px;
+    text-transform: inherit;
+    font-size: 0.8em;
+    border: 3px blue;
+    text-align: center;
+    background-color: azure;
+    border-collapse: separate;
+}
+table:hover {
+    text-transform: uppercase;
+}
+
+form {
+    clear:both;
+    float:right;
+    width: 20%;
+    padding-top: 350px;
+    margin-top: 350px;
+    font-size: 0.6em;
+    color: aqua;
+    border: 1px;
+    text-align: left;
+    background-color: aliceblue;
+    position: absolute;
+}
+
+#name, #email:hover{
+    text-transform: lowercase;
+}
+
+#name, #email:focus{
+    text-transform: uppercase;
+}
 
 
 
@@ -98,7 +133,7 @@ ul {
 /*-----layout------*/
 
 #container {
-    background: url("../images/R33Skyline.jpg") no-repeat left center fixed;
+    background: url("../images/R33Skyline.jpg") no-repeat center center fixed;
     min-height:100%;
     position:relative;
 }
@@ -117,7 +152,7 @@ ul {
     width: 31.3%;
     padding: 10px;
     margin: 1%;
-
+    opacity: 0.9;
 }
 
 #history {
@@ -126,7 +161,7 @@ ul {
     width: 31.3%;
     padding: 10px;
     margin: 1%;
-
+    opacity: 0.9;
 }
 
 #images {
@@ -136,7 +171,7 @@ ul {
 
 }
 
-#footer {
+footer {
 
     clear: left;
     width: 100%;
