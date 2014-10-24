@@ -95,11 +95,17 @@ table {
     padding: 3px;
     text-transform: inherit;
     font-size: 0.8em;
-    border: 3px blue;
     text-align: center;
     background-color: azure;
     border-collapse: separate;
+
 }
+
+table, td, th {
+
+    border: 1px blue;
+}
+
 table:hover {
     text-transform: uppercase;
 }
