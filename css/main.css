@@ -90,7 +90,7 @@ ul {
 }
 
 
-table {
+#formtable {
     width: 25%;
     padding: 3px;
     text-transform: inherit;
@@ -98,12 +98,14 @@ table {
     text-align: center;
     background-color: azure;
     border-collapse: separate;
-
+    border-spacing: 5px;
 }
 
-table, td, th {
-
-    border: 1px blue;
+table {
+    padding: 10px;
+    border: 5px blue;
+    background-color: aliceblue;
+    border-collapse: separate;
 }
 
 table:hover {
